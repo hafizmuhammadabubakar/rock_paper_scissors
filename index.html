@@ -4,47 +4,27 @@
   <title>Rock Paper Scissors</title>
 </head>
 <style>
-	.main {
+	body {
 		text-align: center;
 	}
 	input[type="button"] {
-		font-size: 6vw;
-		width: 30%;
-		padding: 10px;
-		background-color:#2eca7f;
-		color: white;
-		font-weight: bolder;
-		border: none;
-		outline: none;
-		border-radius: 10px;
-		cursor:pointer;
-	}
-		input[type="button"]:hover {
-		background-color:black;
+		font-size: 25px;
+		padding: 5px;
+		width: 30vw;
 	}
 	#result {
-		font-family: monospace;
 		font-size: 5vw;
-		color: red;
-		font-weight: bolder;
-		background-color: #eee;
-		border-radius: 10px;
+		font-family: monospace;
 	}
 </style>
 <body>
-  <div class="main">
-  
-  <h1>Choose Your Option Below</h1>
-  
-  <div style="margin-bottom:20px;">
-    <input type="button" value="Rock"></input>
-    <input type="button" value="Paper"></input>
-    <input type="button" value="Scissors"></input>
+  <h2>Choose your weapon</h2>
+  <div style="margin-bottom:20px; text-align:center;">
+    <input type="button" value="rock"></input>
+    <input type="button" value="paper"></input>
+    <input type="button" value="scissors"></input>
   </div>
-  
   <div id="result"></div>
-  
-  </div>
   <script src="rps.js"></script>
 </body>
 </html>

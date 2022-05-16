@@ -26,7 +26,7 @@ function playRound(playerSelection) {
             + "<br><br>Player score: " + playerScore + "<br>Computer score: " + computerScore)
 
         if (playerScore == 5) {
-            result += '<br><br>You won the game! Reload the page to play again'
+            result += '<br><br>You won the game! <br> Reload the page to play again'
             disableButtons()
         }
     }
@@ -40,7 +40,7 @@ function playRound(playerSelection) {
             + "<br><br>Player score: " + playerScore + "<br>Computer score: " + computerScore)
 
         if (computerScore == 5) {
-            result += '<br><br>I won the game! <br> Reload the page to play again'
+            result += '<br><br>Computer won the game! <br> Reload the page to play again'
             disableButtons()
         }
     }
