@@ -1,2 +1,2 @@
 # rock_paper_scissors
-[Live Preview](https://hafizmuhammadabubakar.github.io/rock-paper-scissors/)
+[Live Preview](https://hafizmuhammadabubakar.github.io/rock_paper_scissors/)
